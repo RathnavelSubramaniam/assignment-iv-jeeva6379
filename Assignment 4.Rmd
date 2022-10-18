@@ -48,7 +48,7 @@ boot.fn(Default, 1:nrow(Default))
  (c) Use the boot() function together with your boot.fn() function to estimate the standard errors of the logistic regression coefficients for “income” and “balance”.
 
 ```{r}
-boot(Default, boot.fn, 1000)
+boot(Default, boot.fn, 100)
 ```
 
   Ans:-
